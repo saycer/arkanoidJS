@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  entry: "./js/arkanoid.js",
+  entry: "./js/app.js",
   output: {
     filename: "out.js",
     path: path.resolve(__dirname, "js")
