@@ -20,7 +20,7 @@ function Game() {
     let brickOffsetLeft = 25;
     let bricks = [];
     let ballOn = false;
-    let score = 5;
+    let score = 0;
     let gradient = ctx.createLinearGradient(0, 0, 0, 170);
     gradient.addColorStop("0", "red");
     gradient.addColorStop("0.33", "blue");
